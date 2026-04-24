@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow read for all fields in u_secure_message, for users with role public, and if the ACL script returns true.</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>u_secure_message.*</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[const userId = gs.getUserID();
+const cci = current.getValue('u_cci') || '';
+
+answer = gs.hasRole('itil')
+    || current.getValue('u_to') === userId
+    || current.getValue('u_from') === userId
+    || cci.split(',').indexOf(userId) > -1;]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 18:56:34</sys_created_on>
+        <sys_id>0d63f877479c4b50a0948c64116d43f1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>u_secure_message.*</sys_name>
+        <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
+        <sys_update_name>sys_security_acl_0d63f877479c4b50a0948c64116d43f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 23:40:29</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0d63f877479c4b50a0948c64116d43f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 19:38:23</sys_created_on>
+        <sys_id>f58ef8fb47dc4b50a0948c64116d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 19:38:23</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
