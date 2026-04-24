@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="361fb3ab47d44b50a0948c64116d43f6" max_length="40" name="u_secure_message" type="collection">
+    <element db_object_id="361fb3ab47d44b50a0948c64116d43f6" label="Secure Message" max_length="40" name="u_secure_message" type="collection">
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="From" mandatory="true" max_length="32" name="u_from" reference="sys_user" type="reference"/>
-        <element label="To" mandatory="true" max_length="32" name="u_to" reference="sys_user" type="reference"/>
+        <element label="To" mandatory="true" max_length="32" name="u_to" reference="sys_user" reference_qual="sys_id!=javascript:gs.getUserID()" type="reference" use_reference_qualifier="advanced"/>
         <element label="Secure Message" max_length="32" name="u_secure_message" reference="sys_user" type="reference"/>
-        <element label="Cci" max_length="1024" name="u_cci" reference="sys_user" type="glide_list"/>
+        <element label="Cci" max_length="1024" name="u_cci" reference="sys_user" reference_qual="sys_id!=javascript:gs.getUserID()" type="glide_list" use_reference_qualifier="advanced"/>
         <element label="Message" mandatory="true" max_length="4000" name="u_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
         <index name="index">

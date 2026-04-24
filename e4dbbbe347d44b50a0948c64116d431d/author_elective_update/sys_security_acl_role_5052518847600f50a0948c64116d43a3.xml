@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 15:44:04</sys_created_on>
+        <sys_id>5052518847600f50a0948c64116d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil</sys_name>
+        <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
+        <sys_security_acl display_value="">cf42118847600f50a0948c64116d43a2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5052518847600f50a0948c64116d43a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 15:44:04</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</application>
+        <file_path/>
+        <instance_id>199e5a32ff5c6e5cc812f8e4fc4fd9be</instance_id>
+        <instance_name>dev302496</instance_name>
+        <name>sys_security_acl_role_5052518847600f50a0948c64116d43a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-24 15:44:04</sys_created_on><sys_id>5052518847600f50a0948c64116d43a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.itil</sys_name><sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package><sys_policy/><sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope><sys_security_acl display_value="">cf42118847600f50a0948c64116d43a2</sys_security_acl><sys_update_name>sys_security_acl_role_5052518847600f50a0948c64116d43a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-24 15:44:04</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>203731797</payload_hash>
+        <record_name>.itil</record_name>
+        <reverted_from/>
+        <source>a50cb32747d44b50a0948c64116d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 15:44:04</sys_created_on>
+        <sys_id>4372958847600f50a0948c64116d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dc029966c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 15:44:04</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>03729588ea600f509b13538133313154</update_guid>
+        <update_guid_history>03729588ea600f509b13538133313154:203731797</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".itil">4f751d0047a00f50a0948c64116d43d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 15:57:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0267d074a545453095a0c86061637040</sys_id>
+        <sys_metadata>5052518847600f50a0948c64116d43a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil</sys_name>
+        <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
+        <sys_parent display_value="u_secure_message">cf42118847600f50a0948c64116d43a2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
+        <sys_scope_delete display_value="">148f62dc51e74df1848b1d1e1bf9f779</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5052518847600f50a0948c64116d43a3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5052518847600f50a0948c64116d43a3">4372958847600f50a0948c64116d4355</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 15:57:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

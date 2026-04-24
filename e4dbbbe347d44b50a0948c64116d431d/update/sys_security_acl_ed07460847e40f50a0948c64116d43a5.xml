@@ -7,34 +7,34 @@
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>The TO user cannot see the Cci field value (field-level ACL). </description>
+        <description/>
         <local_or_existing>Existing</local_or_existing>
-        <name>u_secure_message.u_cci</name>
-        <operation display_value="read">read</operation>
-        <script><![CDATA[answer = current.u_to != gs.getUserID();]]></script>
+        <name>u_secure_message.u_from</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = false;]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-23 18:56:34</sys_created_on>
-        <sys_id>0d63f877479c4b50a0948c64116d43f1</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>u_secure_message.u_cci</sys_name>
+        <sys_created_on>2026-04-24 19:33:37</sys_created_on>
+        <sys_id>ed07460847e40f50a0948c64116d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_secure_message.u_from</sys_name>
         <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
-        <sys_update_name>sys_security_acl_0d63f877479c4b50a0948c64116d43f1</sys_update_name>
+        <sys_update_name>sys_security_acl_ed07460847e40f50a0948c64116d43a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-24 15:26:57</sys_updated_on>
+        <sys_updated_on>2026-04-24 19:33:37</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>0d63f877479c4b50a0948c64116d43f1</id>
+        <id>ed07460847e40f50a0948c64116d43a5</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-23 19:38:23</sys_created_on>
-        <sys_id>f58ef8fb47dc4b50a0948c64116d435f</sys_id>
+        <sys_created_on>2026-04-24 19:33:37</sys_created_on>
+        <sys_id>a107064047280f50a0948c64116d438f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-23 19:38:23</sys_updated_on>
+        <sys_updated_on>2026-04-24 19:33:37</sys_updated_on>
         <table>sys_security_acl</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
