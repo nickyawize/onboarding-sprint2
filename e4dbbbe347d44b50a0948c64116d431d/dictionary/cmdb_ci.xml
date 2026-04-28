@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="65cd8891799232108bb291bde809c9d6" defaultsort="-1" dynamic_creation_script="// default on the table level is to create a server&#13;&#10;&#13;&#10;var gr = new GlideRecord(&quot;cmdb_ci_server&quot;);&#13;&#10;gr.initialize();&#13;&#10;gr.name=value;&#13;&#10;gr.insert();" extends="cmdb" label="Élément de configuration" max_length="40" name="cmdb_ci" type="collection">
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+    </element>
+</database>
