@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a405b92d476c0710a0948c64116d43f8" extends="sys_import_set_row" label="CMDB Servers Staging" max_length="40" name="u_cmdb_servers_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial number" label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model ID" label="Model ID" max_length="40" name="u_model_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Asset tag" label="Asset tag" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="import_attribute_name=Disk space (GB)" label="Disk space (GB)" max_length="15" name="u_disk_space__gb_" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating System" label="Operating System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="import_attribute_name=CD Speed" label="CD Speed" max_length="40" name="u_cd_speed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=DNS Domain" label="DNS Domain" max_length="40" name="u_dns_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS Version" label="OS Version" max_length="40" name="u_os_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=RAM (MB)" label="RAM (MB)" max_length="40" name="u_ram__mb_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Virtual" label="Is Virtual" max_length="40" name="u_is_virtual" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="70" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPU type" label="CPU type" max_length="40" name="u_cpu_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=CPU count" label="CPU count" max_length="40" name="u_cpu_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPU manufacturer" label="CPU manufacturer" max_length="40" name="u_cpu_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPU core count" label="CPU core count" max_length="40" name="u_cpu_core_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS Service Pack" label="OS Service Pack" max_length="40" name="u_os_service_pack" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS Domain" label="OS Domain" max_length="40" name="u_os_domain" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_from</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 18:32:50</sys_created_on>
+        <sys_id>57f8f94447a40f50a0948c64116d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_from</sys_name>
+        <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_57f8f94447a40f50a0948c64116d43a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 18:32:50</sys_updated_on>
+        <table>u_secure_message</table>
+        <ui_policy display_value="The FROM field is automatically populated with the user who creates the record and is read-only afterwards (cannot be modified).">b7b8f14447a40f50a0948c64116d43db</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=57f8f94447a40f50a0948c64116d43a8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</application>
+        <file_path/>
+        <instance_id>199e5a32ff5c6e5cc812f8e4fc4fd9be</instance_id>
+        <instance_name>dev302496</instance_name>
+        <name>sys_ui_policy_action_57f8f94447a40f50a0948c64116d43a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_from</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-24 18:32:50</sys_created_on><sys_id>57f8f94447a40f50a0948c64116d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_from</sys_name><sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package><sys_policy/><sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope><sys_update_name>sys_ui_policy_action_57f8f94447a40f50a0948c64116d43a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-24 18:32:50</sys_updated_on><table>u_secure_message</table><ui_policy display_value="The FROM field is automatically populated with the user who creates the record and is read-only afterwards (cannot be modified).">b7b8f14447a40f50a0948c64116d43db</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=57f8f94447a40f50a0948c64116d43a8"/></record_update>]]></payload>
+        <payload_hash>314809398</payload_hash>
+        <record_name>u_from</record_name>
+        <reverted_from/>
+        <source>a50cb32747d44b50a0948c64116d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 18:32:50</sys_created_on>
+        <sys_id>5b19fd4447a40f50a0948c64116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dc0c41bef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 18:32:50</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1b19fd449ca40f506e7515d91c9e508b</update_guid>
+        <update_guid_history>1b19fd449ca40f506e7515d91c9e508b:314809398</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 19:02:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>b8bedad96ac44b108c482b32c5fecc40</sys_id>
+        <sys_metadata>57f8f94447a40f50a0948c64116d43a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_from</sys_name>
+        <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
+        <sys_scope_delete display_value="">148f62dc51e74df1848b1d1e1bf9f779</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_57f8f94447a40f50a0948c64116d43a8</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_57f8f94447a40f50a0948c64116d43a8">5b19fd4447a40f50a0948c64116d438c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 19:02:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
