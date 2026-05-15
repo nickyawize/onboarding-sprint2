@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18b44bf14738c310a0948c64116d4394" max_length="40" name="u_ip_log" type="collection">
+        <element default="true" label="Authorized" max_length="255" name="u_authorized" type="boolean"/>
+        <element label="IP" max_length="40" name="u_ip" type="string"/>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>

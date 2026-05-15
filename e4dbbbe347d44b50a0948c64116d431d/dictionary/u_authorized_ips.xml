@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="16dc8ec647304710a0948c64116d4351" max_length="40" name="u_authorized_ips" type="collection">
+        <element label="IP" mandatory="true" max_length="40" name="u_ip" type="string"/>
+    </element>
+</database>

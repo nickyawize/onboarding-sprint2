@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Chauve-souris</description>
+        <event_name>zokone</event_name>
+        <fired_by>Placali</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix/>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-15 11:53:41</sys_created_on>
+        <sys_id>ac76ac3647708b10a0948c64116d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zokone</sys_name>
+        <sys_package display_value="Onboarding Sprint2" source="e4dbbbe347d44b50a0948c64116d431d">e4dbbbe347d44b50a0948c64116d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Sprint2">e4dbbbe347d44b50a0948c64116d431d</sys_scope>
+        <sys_update_name>sysevent_register_ac76ac3647708b10a0948c64116d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-15 11:53:41</sys_updated_on>
+        <table>sys_user</table>
+    </sysevent_register>
+</record_update>
